@@ -1,0 +1,35 @@
+:root {
+  --main_font: "Archivo";
+  --sub_font: "Open Sans";
+  --primary: #7879F1;
+  --primary_sub: #C8C9FC;
+  --primary_mutted: #F6F7FF;
+  --secondary: #A3DF73;
+  --main_bg: #1B0477;
+  --sub_bg: #000;
+  --main_txt: #ffffff;
+  --sub_txt: #212529;
+  --mutted_txt: #7E7E7E;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--main_bg);
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.main {
+  display: flex;
+
+  @media screen and (max-width: 1250px) {
+    align-items: center;
+    flex-direction: column;
+  }
+}
