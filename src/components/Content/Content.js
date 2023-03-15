@@ -36,7 +36,7 @@ const Content = () => (
       <img className="ceo__photo" src={ceo} alt="CEO"/>
 
       <div>
-        <div className="ceo__name">Andrey PPPP</div>
+        <div className="ceo__name">Andrey PPPPAAAA</div>
         <div className="ceo__description">CEO at NetHunt</div>
       </div>
 
